@@ -5,6 +5,7 @@
 
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 Gname,Gnamei,Gnameo = '','',''
@@ -30,9 +31,11 @@ s = pd.DataFrame(Lvalue, columns = ['Petal Length','Petal Width','Sepal Length',
 
 # mean, minimum, maximum and standard diviation
 print (s.describe(include='all'))
+print (s.plot(x='Petal Length',y='Sepal Length'))
+plt.show()
 
-df = pd.read_csv("data/iris.csv")
-print (df)
+#df = pd.read_csv("data/iris.csv")
+#print (df)
 
 #print (Lattributes)
 

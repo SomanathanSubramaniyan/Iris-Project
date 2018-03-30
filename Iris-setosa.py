@@ -34,5 +34,16 @@ s = pd.DataFrame(Lvalue, columns = ['Petal Length','Petal Width','Sepal Length',
 
 # mean, minimum, maximum and standard diviation
 print (s.describe(include='all'))
-print (s.plot(x='Petal Length',y='Sepal Length'))
+
+#Plot the graph petal length vs Sepal length
+s.plot(x='Petal Length',y='Sepal Length',kind='scatter')
+# show the graph
+plt.show()
+
+#Plot the graph petal length vs Sepal length
+s.plot(x='Petal Width',y='Sepal Width',kind='scatter')
+plt.show()
+
+# show the graph
+s.plot(kind='box')
 plt.show()

@@ -1,9 +1,33 @@
 References::
 https://www.techopedia.com/definition/32880/iris-flower-data-set
-
-
-
+https://www.youtube.com/watch?v=azXCzI57Yfc
+https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+https://pythonprogramming.net/support-vector-machine-intro-machine-learning-tutorial/
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+https://en.wikipedia.org/wiki/Ronald_Fisher
+https://en.wikipedia.org/wiki/Statistical_classification
+https://en.wikipedia.org/wiki/Multivariate_statistics
+https://en.wikipedia.org/wiki/Edgar_Anderson
+http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 
 
 
 KeyPoints:
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). 
+Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. 
+Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+
+How and Where it is used:
+New types of Sorting models uses Iris data set as an input
+Iris data set is used by IBM watson analytics engine
+
+Explain the below
+Fisher's linear discriminant model 
+Supervised and unsupervised techniques in data mining
+Nonlinear principal component
+
+Solutions using machine learning algorithms
+1. Support Vector algorithms
+2.
+
+

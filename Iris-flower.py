@@ -8,14 +8,14 @@
 # https://matplotlib.org/api/pyplot_api.html
 # https://matplotlib.org/examples/index.html
 # https://stackoverflow.com/questions/4270301/matplotlib-multiple-datasets-on-the-same-scatter-plot?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+# https://www.datascience.com/learn-data-science/tutorials/creating-data-visualizations-matplotlib-data-science-python
 
-
-
+#Import the libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+# Define the variables
 Gname,Gnamei,Gnameo = '','',''
 Lsetosa,Lvirginica,Lversi =[],[],[]
 
@@ -52,29 +52,46 @@ data = {'Iris-setosa':dfsetosa,
         'Iris-versicolor':dfversi,
         'Iris-virginica': dfvirginica}
 
-p = pd.Panel (data)
-
-#print(dfsetosa)
-x = range(1,50)
-print (x)
-print (dfsetosa)
-#plt.scatter(x[:0],dfsetosa.loc["0":"49","Petal Length"])
-#plt.scatter(x[:0],dfvirginica.loc["0":"49","Petal Length"])
-#plt.show()
-
-#print (p)
-#p.plot(kind='scatter')
 
 
-# #Plot the graph petal length vs Sepal length
-# dfsetosa.plot(x='Petal Length',y='Sepal Length',kind='scatter')
-# # show the graph
-# plt.show()
+#Data frame to hold the values of Petal legnth and width's of Iris Setosa, Virginica and Versicolor
+dfpetal = pd.DataFrame(dfsetosa["Petal Length"])
+dfpetal = dfpetal.rename(columns={'Petal Length': 'PL-Setosa'})
+dfpetal['PW-Setosa'] = pd.DataFrame(dfsetosa["Petal Width"])
+dfpetal['PL-Viginica'] = pd.DataFrame(dfvirginica["Petal Length"])
+dfpetal['PW-Viginica'] = pd.DataFrame(dfvirginica["Petal Width"])
+dfpetal['PL-Versi'] = pd.DataFrame(dfversi["Petal Length"])
+dfpetal['PW-Versi'] = pd.DataFrame(dfversi["Petal Width"])
+dfpetal['x'] = np.linspace(0,10, 50)
 
-# #Plot the graph petal length vs Sepal length
-# dfsetosa.plot(x='Petal Width',y='Sepal Width',kind='scatter')
-# plt.show()
+# Graph for the three different flowers :: Petal Length Vs Petal Width
+ax = dfpetal.plot(kind="scatter", y='PL-Setosa',x='PW-Setosa', color="b", label="Setosa")
+dfpetal.plot(kind="scatter", x='PW-Viginica',y='PL-Viginica', color="r", label="Virginica", ax=ax)
+dfpetal.plot(kind="scatter", x='PW-Versi',y='PL-Versi', color="g", label="Versicolor", ax=ax)
 
-# # show the graph
-# dfsetosa.plot(kind='box')
-# plt.show()
+ax.set_xlabel("Petal Width")
+ax.set_ylabel("Petal Length")
+plt.show()
+
+
+#Data frame to hold the values of Petal legnth and width's of Iris Setosa, Virginica and Versicolor
+dfpetal = pd.DataFrame(dfsetosa["Sepal Length"])
+dfpetal = dfpetal.rename(columns={'Sepal Length': 'SL-Setosa'})
+dfpetal['SW-Setosa'] = pd.DataFrame(dfsetosa["Sepal Width"])
+dfpetal['SL-Viginica'] = pd.DataFrame(dfvirginica["Sepal Length"])
+dfpetal['SW-Viginica'] = pd.DataFrame(dfvirginica["Sepal Width"])
+dfpetal['SL-Versi'] = pd.DataFrame(dfversi["Sepal Length"])
+dfpetal['SW-Versi'] = pd.DataFrame(dfversi["Sepal Width"])
+dfpetal['x'] = np.linspace(0,10, 50)
+
+
+# Graph for the three different flowers :: Petal Length Vs Petal Width
+ax = dfpetal.plot(kind="scatter", y='SL-Setosa',x='SW-Setosa', color="b", label="Setosa")
+dfpetal.plot(kind="scatter", x='SW-Viginica',y='SL-Viginica', color="r", label="Virginica", ax=ax)
+dfpetal.plot(kind="scatter", x='SW-Versi',y='SL-Versi', color="g", label="Versicolor", ax=ax)
+
+ax.set_xlabel("Sepal Width")
+ax.set_ylabel("Sepal Length")
+plt.show()
+
+

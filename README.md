@@ -32,6 +32,6 @@ Please find the summary of initial data analysis for each flower
 - Minimum (Min) – Minimum value of the data in the data set
 - Maximum(Max) – Maximum value of the date in the data set
 
-![alt text] (https://github.com/SomanathanSubramaniyan/Iris-Project/tree/master/Images/Iris-flower-stats.png)
+![](Images/Iris-flower-stats.png)
 
 

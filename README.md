@@ -1,5 +1,5 @@
-# Project 2018
-### Programming and Scripting
+# Project 2018  
+### Programming and Scripting  
 ### Fisher’s Iris dataset
 ##### Problem statement
 This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below information and programming tasks to be performed as part of the project.
@@ -33,5 +33,6 @@ Please find the summary of initial data analysis for each flower
 - Maximum(Max) – Maximum value of the date in the data set
 
 ![](Images/Iris-flower-stats.png)
+![](Images/Petal-Graphs.png)
 
 

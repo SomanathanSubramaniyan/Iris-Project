@@ -1,3 +1,5 @@
+
+
 # Project 2018
 ### Programming and Scripting
 ### Fisher’s Iris dataset
@@ -27,6 +29,14 @@ Two of the three species were collected in the Gaspé Peninsula and picked on th
    - Four features were measured from each sample namely Petal length, Petal width, Sepal length and Sepal width
 - The length and the width of the sepals and petals, in centimetres. 
 Based on the combination of these four features, R.A Fisher developed a linear discriminant model to distinguish the species from each other.
+
+##### Data Set - Analysis and Investigation
+Please find the summary of initial data analysis for each flower
+- Count – Number of records in the Iris data file
+- Mean – Average of the data set
+- Standard deviation (std) – How much the data differs from the mean of the data set
+- Minimum (Min) – Minimum value of the data in the data set
+- Maximum(Max) – Maximum value of the date in the data set
 
 
 

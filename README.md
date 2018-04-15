@@ -2,7 +2,7 @@
 ### Programming and Scripting  
 ### Fisher’s Iris dataset
 ##### Problem statement
-This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below information and programming tasks to be performed as part of the project.
+This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below tasks to be performed as part of the project.
 - Background information and summary of the Iris Data set 
 - Download the data set and write Python code to investigate it. 
 - Summarise the data set and document the investigations. 
@@ -26,13 +26,27 @@ Two of the three species were collected in the Gaspé Peninsula and picked on th
 Based on the combination of these four features, R.A Fisher developed a linear discriminant model to distinguish the species from each other.
 ##### Data Set - Analysis and Investigation
 Please find the summary of initial data analysis for each flower
+![](Images/Iris-flower-stats.png)
 - Count – Number of records in the Iris data file
 - Mean – Average of the data set
 - Standard deviation (std) – How much the data differs from the mean of the data set
 - Minimum (Min) – Minimum value of the data in the data set
 - Maximum(Max) – Maximum value of the date in the data set
 
-![](Images/Iris-flower-stats.png)
 ![](Images/Petal-Graphs.png)
+##### Petal Graph’s - Observations:
+- Clear attribute distinction of Setosa flower against Virginica and Versicolor
+- Setosa: The Sepal width and length are distinct from Virginica and Versicolor
+    - Minimum length and Width: 4.3 cm and 2.3 cm
+    - Maximum length and Width: 5.8 cm and 4.4 cm
+- Overlap between Virginica and Versicolor
+
+![](Images/Sepal-Graphs.png)
+##### Sepal Graph’s - Observations:
+- Clear attribute distinction of Setosa flower against Virginica and Versicolor
+- Setosa: The Sepal width and length are distinct from Virginica and Versicolor
+  - Minimum length and Width: 1 cm and 0.1 cm
+  - Maximum length and Width: 1.9 cm and 0.6 cm
+- Small overlap between Virginica and Versicolor
 
 

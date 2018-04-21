@@ -1,4 +1,10 @@
-### Project 2018  - Programming and Scripting  - Fisher’s Iris dataset
+## Project 2018  - Programming and Scripting  - Fisher’s Iris dataset
+### How to run the code in this repository
+- Download Anaconda
+- Install Anaconda
+- Create a "data" folder in your work directory. Copy iris data file in the "data" folder and name the file as "iris"
+- Execute Iris-flowerpy in the Terminal using command "python Iris-flower.py"
+- Refer "Iris Data - Project Documentation.docx" for documentation on this project 
 ##### Problem statement
 This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below tasks to be performed as part of the project.
 - Background information and summary of the Iris Data set 

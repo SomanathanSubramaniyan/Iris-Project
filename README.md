@@ -23,7 +23,7 @@ Two of the three species were collected in the Gaspé Peninsula and picked on th
 - The length and the width of the sepals and petals, in centimetres. 
 Based on the combination of these four features, R.A Fisher developed a linear discriminant model to distinguish the species from each other.
 ##### Data Set - Analysis and Investigation
-Please find the summary of initial data analysis for each flower
+Please find the summary of data analysis for each flower based on the given features/attributes
 ![](Images/Iris-flower-stats.png)
 - Count – Number of records in the Iris data file
 - Mean – Average of the data set
@@ -38,6 +38,25 @@ Please find the summary of initial data analysis for each flower
     - Minimum length and Width: 4.3 cm and 2.3 cm
     - Maximum length and Width: 5.8 cm and 4.4 cm
 - Overlap between Virginica and Versicolor
+- Based on the given data,
+   - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)
+   - Setosa: 
+     - Minimum length and Width: 4.3 cm and 2.3 cm
+     - Maximum length and Width: 5.8 cm and 4.4 cm
+     - No other flowers have petal length falls below 4.5
+     - No other flowers have petal width falls above 4
+     - Straight line/plane can be drawn to demarcate the setosa flower
+   - Virginica:
+     - Minimum length and Width: 4.9 cm and 2 cm
+     - Maximum length and Width: 7 cm and 3.4 cm
+     - No other flowers have petal length lower than 2.2
+   - Versicolor:
+     - Minimum length and Width: 4.9 cm and 2.2 cm
+     - Maximum length and Width: 7.9 cm and 3.8 cm
+     - No other flowers have petal length greater than 7 cm
+   - Overlap between Virginica and Versicolor flower attributes/features
+
+
 
 ![](Images/Sepal-Graphs.png)
 ##### Sepal Graph’s - Observations:

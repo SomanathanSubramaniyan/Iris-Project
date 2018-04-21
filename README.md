@@ -33,11 +33,6 @@ Please find the summary of data analysis for each flower based on the given feat
 
 ![](Images/Petal-Graphs.png)
 ##### Petal Graph’s - Observations:
-- Clear attribute distinction of Setosa flower against Virginica and Versicolor
-- Setosa: The Sepal width and length are distinct from Virginica and Versicolor
-    - Minimum length and Width: 4.3 cm and 2.3 cm
-    - Maximum length and Width: 5.8 cm and 4.4 cm
-- Overlap between Virginica and Versicolor
 - Based on the given data,
    - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)
    - Setosa: 
@@ -60,10 +55,45 @@ Please find the summary of data analysis for each flower based on the given feat
 
 ![](Images/Sepal-Graphs.png)
 ##### Sepal Graph’s - Observations:
-- Clear attribute distinction of Setosa flower against Virginica and Versicolor
-- Setosa: The Sepal width and length are distinct from Virginica and Versicolor
-  - Minimum length and Width: 1 cm and 0.1 cm
-  - Maximum length and Width: 1.9 cm and 0.6 cm
-- Small overlap between Virginica and Versicolor
+- Based on the given data,
+   - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)
+   - Setosa: 
+     - Minimum length and Width: 1 cm and 0.1 cm
+     - Maximum length and Width: 1.9 cm and 0.6 cm
+     - No other flowers have Sepal length between 1 cm and 1.9 cm
+     - No other flowers have Sepal width between 0.1 cm and 0.6 cm
+     - Straight line/plane can be drawn to demarcate the setosa flower
+   - Virginica:
+     - Minimum length and Width: 4.5 cm and 1.4 cm
+     - Maximum length and Width:6.9 cm and 2.5 cm
+     - No other flowers have Sepal length more than 5.1 cm
+     - No other flowers have sepal width more than 1.8 cm
+   - Versicolor:
+     - Minimum length and Width: 3 cm and 1 cm
+     - Maximum length and Width: 5.1 cm and 1.8 cm
+     - No other flowers have Sepal width between 1 cm and 1.4 cm
+     - No other flowers have Sepal length between 3 cm and 4.5 cm
+   - Overlap between Virginica and Versicolor flower attributes/features
+   
+   
+
+##### References
+- Subject References:
+   - https://en.wikipedia.org/wiki/Iris_flower_data_set
+   - https://en.wikipedia.org/wiki/Ronald_Fisher
+   - https://en.wikipedia.org/wiki/Statistical_classification
+   - https://en.wikipedia.org/wiki/Multivariate_statistics
+   - https://en.wikipedia.org/wiki/Edgar_Anderson
+- Technical Reference: 
+   - https://www.techopedia.com/definition/32880/iris-flower-data-set
+   - https://www.youtube.com/watch?v=azXCzI57Yfc
+   - https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+   - https://pythonprogramming.net/support-vector-machine-intro-machine-learning-tutorial/
+   - http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+   - https://stackoverflow.com/
+   - http://pandas.pydata.org/pandas-docs/version
+   - https://www.tutorialspoint.com/python_pandas/python_pandas_series.htm
+   - https://matplotlib.org/api/pyplot_api.html
+   - https://www.datascience.com/learn-data-science/tutorials/creating-data-visualizations-matplotlib-data-science-python
 
 

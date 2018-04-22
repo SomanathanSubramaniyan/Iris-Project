@@ -1,5 +1,5 @@
 ## Project 2018  - Programming and Scripting  - Fisher’s Iris dataset
-### How to run the code in this repository
+#### How to run the code in this repository
 - Download Anaconda
 - Install Anaconda
 - Create a "data" folder in your work directory. Copy iris data file in the "data" folder and name the file as "iris"
@@ -46,7 +46,7 @@ Please find the summary of data analysis for each flower based on the given feat
      - Maximum length and Width: 5.8 cm and 4.4 cm
      - No other flowers have petal length falls below 4.5
      - No other flowers have petal width falls above 4
-     - Straight line/plane can be drawn to demarcate the setosa flower
+s     - Straight line/plane can be drawn to demarcate the setosa flower
    - Virginica:
      - Minimum length and Width: 4.9 cm and 2 cm
      - Maximum length and Width: 7 cm and 3.4 cm

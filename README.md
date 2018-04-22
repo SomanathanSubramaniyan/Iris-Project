@@ -58,7 +58,7 @@ Please find the summary of data analysis for each flower based on the given feat
 - Maximum(Max) – Maximum value of the date in the data set
 
 ![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Petal-Graphs.png)
-#### Petal Graph’s - Observations
+#### Petal Graphs - Observations
 - Based on the given data,
    - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)
    - Setosa: 

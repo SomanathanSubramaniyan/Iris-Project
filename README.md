@@ -1,5 +1,5 @@
 ## Project 2018  - Programming and Scripting  - Fisher’s Iris dataset
-#### How to run the code in this repository
+##### How to run the code in this repository
 - Download Anaconda
 - Install Anaconda
 - Create a "data" folder in your work directory. Copy iris data file in the "data" folder and name the file as "iris"
@@ -90,7 +90,7 @@ s     - Straight line/plane can be drawn to demarcate the setosa flower
    - https://en.wikipedia.org/wiki/Statistical_classification
    - https://en.wikipedia.org/wiki/Multivariate_statistics
    - https://en.wikipedia.org/wiki/Edgar_Anderson
-- Technical Reference: 
+- Technical References: 
    - https://www.techopedia.com/definition/32880/iris-flower-data-set
    - https://www.youtube.com/watch?v=azXCzI57Yfc
    - https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/

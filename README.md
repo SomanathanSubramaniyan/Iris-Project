@@ -26,7 +26,7 @@ The key contributions of R.A Fisher are listed below
 ##### Iris Data Set - Brief Summary
 The Iris flower is a multivariate data set introduced by the R.A Fisher in his 1936 paper and it is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.
 Two of the three species were collected in the Gaspé Peninsula and picked on the same day and measured at the same time by the same person with the same apparatus. The dataset contains 
-- 150 records in total for 3 species of Iris flower
+- 150 records/samples in total for 3 species of Iris flower
 - 50 samples were taken from each of Iris flower namely Iris setosa, Iris virginica and Iris versicolor. 
     - Four features (Petal length, Petal width, Sepal length and Sepal width) were measured from each sample 
     - The length and the width of the sepals and petals are in centimetres. 

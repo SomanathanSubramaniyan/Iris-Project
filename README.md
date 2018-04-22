@@ -1,5 +1,5 @@
 ## Project 2018  - Programming and Scripting  - Fisher’s Iris dataset
-### How to run the code in this repository
+#### How to run the code in this repository
 - Download Anaconda
 - Install Anaconda
 - Create a "data" folder in your work directory. Copy iris data file in the "data" folder and name the file as "iris"

@@ -168,6 +168,8 @@ def graph (name):
         plt.show()
         #print (dflower['Virginica-PA'])
 
+#Call function graph and pass plot parameter 
+#Displays Scatter,box and histogram graphs's
 graph ("scatter")
 graph("box")
 graph("hist")

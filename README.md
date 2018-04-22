@@ -9,7 +9,7 @@
 - Sepal Graph’s - Observations
 - References
 ##### Problem statement
-This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below tasks to be performed as part of the project.
+This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below are the tasks to be performed as part of the project.
 - Background information and summary of the Iris Data set 
 - Download the data set and write Python code to investigate it. 
 - Summarise the data set and document the investigations. 

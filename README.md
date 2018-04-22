@@ -8,7 +8,6 @@
 - Petal Graph’s - Observations
 - Sepal Graph’s - Observations
 - References
-
 ##### Problem statement
 This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below tasks to be performed as part of the project.
 - Background information and summary of the Iris Data set 
@@ -32,7 +31,7 @@ Two of the three species were collected in the Gaspé Peninsula and picked on th
    - Four features were measured from each sample namely Petal length, Petal width, Sepal length and Sepal width
 - The length and the width of the sepals and petals, in centimetres. 
 Based on the combination of these four features, R.A Fisher developed a linear discriminant model to distinguish the species from each other.
-##### How to run the code in this repository
+##### How to run the python code and technical summary
 - Download Anaconda
 - Install Anaconda
 - Create a "data" folder in your work directory. Copy iris data file in the "data" folder and name the file as "iris"
@@ -43,7 +42,7 @@ Based on the combination of these four features, R.A Fisher developed a linear d
       - Create Dataframes for each flower using the List
   - Section 2 : Describe the Iris flower data stored in the dataframes.Using the describe function, display the below for each flower
       - Count of the records/data for each flower
-      - Mean/Average of the flower attributes - Sepal wideth and legth; Petal width and length
+      - Mean/Average of the flower attributes - Sepal width and legth; Petal width and length
       - Standard diviation of the each attribute
       - Minumum and maximum value of the each attribute
   - Section 3 : Plot the scatter, bar and histogram charts/graphs using the matplot library
@@ -67,7 +66,7 @@ Please find the summary of data analysis for each flower based on the given feat
      - Maximum length and Width: 5.8 cm and 4.4 cm
      - No other flowers have petal length falls below 4.5
      - No other flowers have petal width falls above 4
-s     - Straight line/plane can be drawn to demarcate the setosa flower
+     - Straight line/plane can be drawn to demarcate the setosa flower
    - Virginica:
      - Minimum length and Width: 4.9 cm and 2 cm
      - Maximum length and Width: 7 cm and 3.4 cm

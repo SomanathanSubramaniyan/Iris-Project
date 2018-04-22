@@ -8,14 +8,14 @@
 - Petal Graph’s - Observations
 - Sepal Graph’s - Observations
 - References
-##### Problem statement
+#### Problem statement
 This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below are the tasks to be performed as part of the project.
 - Background information and summary of the Iris Data set 
 - Download the data set and write Python code to investigate it. 
 - Summarise the data set and document the investigations. 
 - Document the supporting tables and graphics.
 - Document the references used
- ##### R.A Fisher and Iris Data Set
+#### R.A Fisher and Iris Data Set
 Sir Ronald Aylmer Fisher (R.A Fisher) was a British statistician and geneticist. His work in statistics created the foundations for modern statistical science and considered as most important person in 20th century statistics.
 The key contributions of R.A Fisher are listed below
 - One of the key founders of population genetics
@@ -23,7 +23,7 @@ The key contributions of R.A Fisher are listed below
 - Fisherian Runaway or runaway selection
 - Sexy son hypothesis
 - Analysis of Variance (AVOVA)
-##### Iris Data Set - Brief Summary
+#### Iris Data Set - Brief Summary
 The Iris flower is a multivariate data set introduced by the R.A Fisher in his 1936 paper and it is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.
 Two of the three species were collected in the Gaspé Peninsula and picked on the same day and measured at the same time by the same person with the same apparatus. The dataset contains 
 - 150 records/samples in total for 3 species of Iris flower
@@ -31,7 +31,7 @@ Two of the three species were collected in the Gaspé Peninsula and picked on th
     - Four features (Petal length, Petal width, Sepal length and Sepal width) were measured from each sample 
     - The length and the width of the sepals and petals are in centimetres. 
 Based on the combination of these four features, R.A Fisher developed a linear discriminant model to distinguish the species from each other.
-##### How to run the python code and technical summary
+#### How to run the python code and technical summary
 - Download Anaconda
 - Install Anaconda
 - Create a "data" folder in your work directory. Copy iris data file in the "data" folder and name the file as "iris"
@@ -48,17 +48,17 @@ Based on the combination of these four features, R.A Fisher developed a linear d
   - Section 3 : Plot the scatter, bar and histogram charts/graphs using the matplot library
       - Create a dataframe called dflower, which holds the data of all the 3 flowers
       - Create columsn in the dataframe (dflower) for each flower attribute
-##### Data Set - Analysis and Investigation
+#### Data Set - Analysis and Investigation
 Please find the summary of data analysis for each flower based on the given features/attributes
-![](Images/Iris-flower-stats.png)
+![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Iris-flower-stats.png)
 - Count – Number of records in the Iris data file
 - Mean – Average of the data set
 - Standard deviation (std) – How much the data differs from the mean of the data set
 - Minimum (Min) – Minimum value of the data in the data set
 - Maximum(Max) – Maximum value of the date in the data set
 
-![](Images/Petal-Graphs.png)
-##### Petal Graph’s - Observations
+![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Petal-Graphs.png)
+#### Petal Graph’s - Observations
 - Based on the given data,
    - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)
    - Setosa: 
@@ -77,8 +77,8 @@ Please find the summary of data analysis for each flower based on the given feat
      - No other flowers have petal length greater than 7 cm
    - Overlap between Virginica and Versicolor flower attributes/features
 
-![](Images/Sepal-Graphs.png)
-##### Sepal Graph’s - Observations
+![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Sepal-Graphs.png)
+#### Sepal Graphs - Observations
 - Based on the given data,
    - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)
    - Setosa: 
@@ -99,7 +99,7 @@ Please find the summary of data analysis for each flower based on the given feat
      - No other flowers have Sepal length between 3 cm and 4.5 cm
    - Overlap between Virginica and Versicolor flower attributes/features
    
-##### References
+#### References
 - Subject References:
    - https://en.wikipedia.org/wiki/Iris_flower_data_set
    - https://en.wikipedia.org/wiki/Ronald_Fisher

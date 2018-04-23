@@ -1,4 +1,4 @@
-## Project 2018  - Programming and Scripting  - Fisher’s Iris dataset
+# Project 2018  - Programming and Scripting  - Fisher’s Iris data set
 #### Contents
 - Problem statement
 - R.A Fisher and Iris Data Set

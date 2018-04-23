@@ -4,9 +4,9 @@
 - R.A Fisher and Iris Data Set
 - Iris Data Set - Brief Summary
 - How to run the python code and technical summary
-- Data Set - Analysis and Investigation
-- Petal Graph’s - Observations
-- Sepal Graph’s - Observations
+- Iris Data Set - Analysis and Investigation
+- Petal Graphs - Observations
+- Sepal Graphs - Observations
 - References
 #### Problem statement
 This project requires researching the Fisher’s Iris data set, and then writing documentation and code in the Python programming language based on that research. The below are the tasks to be performed as part of the project.
@@ -48,7 +48,7 @@ Based on the combination of these four features, R.A Fisher developed a linear d
   - Section 3 : Plot the scatter, bar and histogram charts/graphs using the matplot library
       - Create a dataframe called dflower, which holds the data of all the 3 flowers
       - Create columsn in the dataframe (dflower) for each flower attribute
-#### Data Set - Analysis and Investigation
+#### Iris Data Set - Analysis and Investigation
 Please find the summary of data analysis for each flower based on the given features/attributes
 ![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Iris-flower-stats.png)
 - Count – Number of records in the Iris data file

@@ -38,9 +38,9 @@ Based on the combination of these four features, R.A Fisher developed a linear d
 - Execute Iris-flower.py in the Terminal using command "python Iris-flower.py"
   - The program is divided into 3 sections 
   - Section 1 : Using Iris Data, create the python-pandas data frame
-      - Read the data from iris.csv file and Create python list for each flower with attributes
+      - Read the data from iris.csv file and Create python list for each flower
       - Create Dataframes for each flower using the List
-  - Section 2 : Describe the Iris flower data stored in the dataframes.Using the describe function, display the below for each flower
+  - Section 2 : Describe the Iris flower data stored in the dataframes. Using the describe function, calculate the below attributes for each flower
       - Count of the records/data for each flower
       - Mean/Average of the flower attributes - Sepal width and legth; Petal width and length
       - Standard diviation of the each attribute

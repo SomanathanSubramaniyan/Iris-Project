@@ -1,3 +1,4 @@
+
 ## Project 2018  - Programming and Scripting  - Fisher’s Iris data set
 #### Contents
 - Problem statement
@@ -58,6 +59,7 @@ Please find the summary of data analysis for each flower based on the given feat
 - Maximum(Max) – Maximum value of the date in the data set
 
 ![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Petal-Graphs.png)
+![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Petal-Graphs2.png)
 #### Petal Graphs - Observations
 - Based on the given data,
    - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)
@@ -78,6 +80,7 @@ Please find the summary of data analysis for each flower based on the given feat
    - Overlap between Virginica and Versicolor flower attributes/features
 
 ![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Sepal-Graphs.png)
+![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Sepal-Graphs2.png)
 #### Sepal Graphs - Observations
 - Based on the given data,
    - Setosa attributes/features are distinct from other species of Iris flower (Viriginca and Versicolor)

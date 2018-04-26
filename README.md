@@ -1,4 +1,4 @@
-
+Iris Data - Project Documentation.
 ## Project 2018  - Programming and Scripting  - Fisher’s Iris data set
 #### Contents
 - Problem statement
@@ -36,7 +36,7 @@ Based on the combination of these four features, R.A Fisher developed a linear d
 - Download Anaconda
 - Install Anaconda
 - Create a "data" folder in your work directory. Copy iris data file in the "data" folder and name the file as "iris"
-- Execute Iris-flowerpy in the Terminal using command "python Iris-flower.py"
+- Execute Iris-flower.py in the Terminal using command "python Iris-flower.py"
   - The program is divided into 3 sections 
   - Section 1 : Using Iris Data, create the python-pandas data frame
       - Read the data from iris.csv file and Create python list for each flower with attributes
@@ -49,6 +49,9 @@ Based on the combination of these four features, R.A Fisher developed a linear d
   - Section 3 : Plot the scatter, bar and histogram charts/graphs using the matplot library
       - Create a dataframe called dflower, which holds the data of all the 3 flowers
       - Create columsn in the dataframe (dflower) for each flower attribute
+  - "Iris Data - Project Documentation.docx": The project information detailed in the readme.md is captured in the word document
+  - "Images" folder in the Master repository contains the graphs produced while executing the python code
+  - "Data" folder contains the Iris data file
 #### Iris Data Set - Analysis and Investigation
 Please find the summary of data analysis for each flower based on the given features/attributes
 ![](https://github.com/SomanathanSubramaniyan/Iris-Project/blob/master/Images/Iris-flower-stats.png)

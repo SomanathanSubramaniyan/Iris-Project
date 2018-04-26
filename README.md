@@ -1,4 +1,3 @@
-Iris Data - Project Documentation.
 ## Project 2018  - Programming and Scripting  - Fisher’s Iris data set
 #### Contents
 - Problem statement

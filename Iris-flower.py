@@ -61,6 +61,7 @@ dfversi = pd.DataFrame(Lversi, columns = ['Petal Length','Petal Width','Sepal Le
 
 #SECTION  1  -- Ends here
 
+
 #SECTION  2  -- Starts here
 #Using the dataframe describe function, display the below for each flower
 #Count of the records/data for each flower
@@ -93,22 +94,50 @@ print (("\n"),dfversi.describe(include='all'))
 
 #Data frame to hold the values of Petal legnth and width's of Iris Setosa, Virginica and Versicolor
 dflower = pd.DataFrame()
-dflower['PL-Setosa'] = pd.DataFrame(dfsetosa["Petal Length"])
-#dflower = dflower.rename(columns={'Petal Length': 'PL-Setosa'})
-dflower['PW-Setosa'] = pd.DataFrame(dfsetosa["Petal Width"])
-dflower['PL-Viginica'] = pd.DataFrame(dfvirginica["Petal Length"])
-dflower['PW-Viginica'] = pd.DataFrame(dfvirginica["Petal Width"])
-dflower['PL-Versi'] = pd.DataFrame(dfversi["Petal Length"])
-dflower['PW-Versi'] = pd.DataFrame(dfversi["Petal Width"])
+#Function to create Petal dataframes
+def creatpetaldataframe():
+        dflower['PL-Setosa'] = pd.DataFrame(dfsetosa["Petal Length"])
+        #dflower = dflower.rename(columns={'Petal Length': 'PL-Setosa'})
+        dflower['PW-Setosa'] = pd.DataFrame(dfsetosa["Petal Width"])
+        dflower['PL-Viginica'] = pd.DataFrame(dfvirginica["Petal Length"])
+        dflower['PW-Viginica'] = pd.DataFrame(dfvirginica["Petal Width"])
+        dflower['PL-Versi'] = pd.DataFrame(dfversi["Petal Length"])
+        dflower['PW-Versi'] = pd.DataFrame(dfversi["Petal Width"])
 
+#Function to create Sepal dataframes
 #Data frame to hold the values of Petal legnth and width's of Iris Setosa, Virginica and Versicolor
-dflower['SL-Setosa'] = pd.DataFrame(dfsetosa["Sepal Length"])
-#dflower = dflower.rename(columns={'Sepal Length': 'SL-Setosa'})
-dflower['SW-Setosa'] = pd.DataFrame(dfsetosa["Sepal Width"])
-dflower['SL-Viginica'] = pd.DataFrame(dfvirginica["Sepal Length"])
-dflower['SW-Viginica'] = pd.DataFrame(dfvirginica["Sepal Width"])
-dflower['SL-Versi'] = pd.DataFrame(dfversi["Sepal Length"])
-dflower['SW-Versi'] = pd.DataFrame(dfversi["Sepal Width"])
+def creatsepaldataframe():
+        dflower['SL-Setosa'] = pd.DataFrame(dfsetosa["Sepal Length"])
+        #dflower = dflower.rename(columns={'Sepal Length': 'SL-Setosa'})
+        dflower['SW-Setosa'] = pd.DataFrame(dfsetosa["Sepal Width"])
+        dflower['SL-Viginica'] = pd.DataFrame(dfvirginica["Sepal Length"])
+        dflower['SW-Viginica'] = pd.DataFrame(dfvirginica["Sepal Width"])
+        dflower['SL-Versi'] = pd.DataFrame(dfversi["Sepal Length"])
+        dflower['SW-Versi'] = pd.DataFrame(dfversi["Sepal Width"])
+
+#create dataframe and also, Box plot for petel length and Width
+creatpetaldataframe()
+color = dict(boxes='DarkGreen', whiskers='DarkOrange',medians='DarkBlue', caps='Gray')
+bp = dflower.boxplot()
+bp.set_ylabel("Measurement in cm")
+bp.set_xlabel("PL - Petal Length   PW - Petal Width")
+plt.title("Petal Length and Width Graph")
+plt.show()
+
+#clear the dataframe and create sepal dataframe. Box plot for Sepal length and Width
+dflower = pd.DataFrame()
+creatsepaldataframe()
+color = dict(boxes='DarkGreen', whiskers='DarkOrange',medians='DarkBlue', caps='Gray')
+bp = dflower.boxplot()
+bp.set_ylabel("Measurement in cm")
+bp.set_xlabel("SL - Sepal Length   SW - Sepal Width")
+plt.title("Sepal Length and Width Graph")
+plt.show()
+
+#clear the dataframe and create sepal and Petal dataframes. 
+dflower = pd.DataFrame()
+creatpetaldataframe()
+creatsepaldataframe()
 
 #Calculate area of the Sepal flower and store the value as a column in the data frame
 dflower['Setosa-SA'] = dflower['SL-Setosa'] * dflower['SW-Setosa']
@@ -166,13 +195,13 @@ def graph (name):
         ax.set_ylabel("Petal Area")
         plt.title("Petal Area Graph")
         plt.show()
-        #print (dflower['Virginica-PA'])
 
 #Call function graph and pass plot parameter 
-#Displays Scatter,box and histogram graphs's
+#Displays Scatter and histogram graphs
 graph ("scatter")
-graph("box")
+graph ("box")
 graph("hist")
 
 #SECTION  3  -- Ends here
 
+ 
